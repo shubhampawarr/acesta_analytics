@@ -1,0 +1,48 @@
+.firstPage{
+    /* position: absolute; */
+    width: 100%;
+    height: 100vh;
+}
+.title{
+    margin-bottom: 100px;
+}
+.imageText{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: -40px;
+}
+.homeBG{
+    width: 100%;
+    height: 100vh;
+}
+.pseTitle{
+    /* background-color: yellow; */
+    
+}
+@media only screen and (max-width: 400px) {
+    .firstPage{
+        width: 100%;
+        height: 100vh;
+    }
+    .imageText{
+        position: absolute;
+        top: 430px;
+        left: 30px;
+        color: white;
+        font-size: 50px;
+        font-weight: 900;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: -40px;
+    }
+    /* .pseTitle{
+        font-size: 30px;
+        background-color: pink;
+    } */
+}

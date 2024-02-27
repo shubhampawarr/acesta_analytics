@@ -1,0 +1,47 @@
+.about {
+    /* width: 80%;
+    margin-left: 10%;
+    font-stretch: extra-expanded; */
+}
+.aTitle {
+    color: #31a089;
+}
+.details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.personalDetails {
+    width: 90%;
+    margin: 15px;
+}
+.nameDetails {
+    display: flex;
+    /* width: 100%; */
+}
+.image {
+    width: 150px;
+}
+.name{
+    margin-left: 20px;
+}
+@media only screen and (max-width: 400px) {
+    .details {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .nameDetails {
+        display: grid;
+        /* justify-content: space-between; */
+        /* width: 65%; */
+    }
+    .image {
+        width: 75px;
+    }
+    .name{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .nameData{
+        font-size: 12px;
+    }
+}

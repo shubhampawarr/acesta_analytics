@@ -1,0 +1,41 @@
+.main {
+    background-color: white;
+    /* position: relative; */
+}
+span {
+    margin-bottom: 10px;
+}
+
+.bg-light {
+    background-color: white;
+}
+.overlay {
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+}
+.imageCS {
+    height: 115vh;
+}
+
+.title {
+    font-family: "Merriweather", serif;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 7vh;
+    color: white;
+    /* padding-right: 100px; */
+}
+.button {
+    background-color: rgb(255, 217, 0);
+}
+
+@media only screen and (max-width: 400px) {
+    .title {
+        font-size: 25px;
+        background-color: yellow;
+    }
+    .imageCS {
+        height: 110vh;
+    }
+}

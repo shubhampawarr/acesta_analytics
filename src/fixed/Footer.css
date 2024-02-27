@@ -1,0 +1,18 @@
+.me-autoss {
+   color: white;
+}
+.hello{
+    color: white;
+}
+.contactLogo{
+    /* background-color: yellow; */
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+    .footerImage{
+        /* background-color: yellow; */
+        /* margin-top: 0px; */
+        width: 60%;
+    }
+}

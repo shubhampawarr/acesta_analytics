@@ -1,0 +1,11 @@
+.nav-link{
+    font-size: 50px;
+    color: white;
+}
+.me-autos{
+    font-size: 25px;
+    width:90%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-evenly;
+}

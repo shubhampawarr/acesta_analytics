@@ -1,0 +1,31 @@
+.ourServices{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.servicesTitle{
+    font-size: 24px;
+    font-weight: 500;
+}
+.servImage{
+    width: 200px;
+    height: 200px;
+}
+.box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.servButton{
+    border-radius: 7px;
+    border: none;
+    color: black;
+}
+@media only screen and (max-width: 400px) {
+    .ourServices{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .servImage{
+        width: 100%;
+        height: 300px;
+    }
+}

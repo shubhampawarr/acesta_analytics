@@ -1,0 +1,113 @@
+.currentImage {
+    width: 930px;
+    height: 650px;
+    /* margin-left: 5%; */
+    border-radius: 10px;
+}
+.imageSlider {
+    /* position: relative; */
+    height: 97vh;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.sliderTitile {
+    display: flex;
+    width: 100%;
+}
+.leftSLider {
+    background-color: black;
+    text-align: center;
+    width: 40%;
+    padding: 5vh;
+    padding-top: 30vh;
+    color: whitesmoke;
+    height: 91vh;
+    border-radius: 10px;
+}
+.rightSlider {
+    /* margin-top: -30px; */
+}
+.prev {
+    position: relative;
+    left: 40%;
+    top: 50vh;
+    cursor: pointer;
+    font-size: 40px;
+}
+.next {
+    position: relative;
+    left: 94.5%;
+    top: 50vh;
+    cursor: pointer;
+    font-size: 40px;
+}
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    /* transform: scale(1.08); */
+}
+.sliderBtn {
+    font-size: 17px;
+    background-color: #212935;
+    color: white;
+margin-top: 35px;
+    width: 30%;
+    height: 10%;
+    border: none;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 400px) {
+    .currentImage {
+        width: 100%;
+        height: 250px;
+        margin-left: 0%;
+        border-radius: 10px;
+    }
+    .sliderTitile {
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .leftSLider {
+        text-align: center;
+        width: 100%;
+        height: 50vh;
+        padding: 0vh;
+        padding-top: 2vh;
+        font-size: 15px;
+        color: whitesmoke;
+    }
+    .rightSlider {
+        /* background-color: black; */
+    }
+    .prev {
+        position: relative;
+        left: 0%;
+        top: 70vh;
+        cursor: pointer;
+        font-size: 20px;
+        color: black;
+    }
+    .next {
+        color: black;
+        position: relative;
+        left: 85%;
+        top: 70vh;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .sliderBtn {
+        font-size: 17px;
+        background-color: #212935;
+        color: white;
+        margin-top: 35px;
+        width: 50%;
+        height: 15%;
+        border: none;
+        border-radius: 8px;
+    }
+}
